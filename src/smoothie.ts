@@ -18,7 +18,11 @@ const randomFruit3 = fruits[Math.floor(Math.random() * 10)];
 // console.log(randomFruit2);
 // console.log(randomFruit3);
 
-function pickFruits(randomFruit1, randomFruit2, randomFruit3) {
+function pickFruits(
+  randomFruit1: string,
+  randomFruit2: string,
+  randomFruit3: string
+) {
   return new Promise((resolve, reject) => {
     console.log("Processing your fruit pick...");
     if (

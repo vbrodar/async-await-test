@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve",
+    "build": "webpack "
+  },
+  "dependencies": {
+    "@types/es6-promise": "^3.3.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^2.0.1",
+    "ts-loader": "^8.0.17"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
