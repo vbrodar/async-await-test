@@ -57,7 +57,7 @@ async function makeSmoothie() {
       randomFruit3
     );
     console.log(pickedFruits);
-    const BlendName = await processFruits(pickedFruits);
+    const BlendName = await processFruits();
     console.log(BlendName);
   } catch {
     console.error(
